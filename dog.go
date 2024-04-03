@@ -1,5 +1,9 @@
 package dog
 
-func barr() string {
-	return "woof!"
+import (
+	"strings"
+)
+
+func WhenGrownUp(s string) string {
+	return "When puppy" + strings.ToUpper(s)
 }
